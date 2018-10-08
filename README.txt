@@ -1,3 +1,7 @@
+###################################################################
+# gdp.py
+###################################################################
+
 
 ###################################################################
 # minesweeper.py
@@ -13,3 +17,15 @@ When the main() from this file is run, it should successfully
 output just the underlying board for a game of minesweeper.
 
 SAMPLE OUTPUT (mine locations will be randomized):
+
+
+###################################################################
+# spaghetti.py
+###################################################################
+Sample correct outputs for spaghetti(x):
+INPUT OUTPUT
+ 0    0
+ 5    0.08716
+10    0.17365
+20    0.34202
+30    0.5
