@@ -1,6 +1,6 @@
 
 ###################################################################
-# partial-minesweeper.py
+# minesweeper.py
 ###################################################################
 This code is for making the game board for Minesweeper,
 a game where the player is given a grid of blank squares.
