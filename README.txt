@@ -16,7 +16,7 @@ The goal is to uncover every square that doesn't contain a mine.
 When the main() from this file is run, it should successfully 
 output just the underlying board for a game of minesweeper.
 
-SAMPLE OUTPUT (mine locations will be randomized):
+Sample output (mine locations will be randomized):
 1 X 2 X 1 0 0 0 1 1 2 X 1 0 0 0 0 0 0 0 
 1 2 3 2 1 0 0 1 2 X 2 1 1 0 0 0 0 0 1 1 
 2 3 X 1 0 0 0 1 X 2 1 0 1 1 1 0 0 0 1 X 
