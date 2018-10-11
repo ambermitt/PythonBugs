@@ -14,8 +14,8 @@ def count_nearby_mines(mines_list):
             ncount[i].append(0)
     
     # count up each cell's True neighbors
-    for y in range(0, len(mines_list)):
-        for x in range (0, len(mines_list[i])):
+    for y in range(0, sz):
+        for x in range (0, sz)):
             if (mines_list[y-1][x-1] == True):
                 ncount[y][x] += 1
             if (mines_list[y-1][x] == True):
@@ -41,12 +41,11 @@ def count_nearby_mines(mines_list):
 def print_board(mines_list, ncount):
     for i in range (0, sz):
         for j in range (0, sz):
-            if (mines_list[i][j] = True):
-                print('X', end='')
+            if (mines_list[i][j] == True):
+                print('X', end=' ')
             else:
-                print(ncount[i][j], end='')
-
-        print('') # new line
+                print(ncount[i][j], end=' ')
+        print('\n', end="")
 
 
 def main():
@@ -57,14 +56,13 @@ def main():
         for j in range (0, sz):
             mines_list[i].append(False)
 
-    # randomly place 5 mines   
-    for k in range (0, 5):
-        y = random.randint(0, sz)
-        x = random.randint(0, sz)
+    # randomly place some mines   
+    for k in range (0, 75):
+        y = random.randint(0, sz-1)
+        x = random.randint(0, sz-1)
         mines_list[y][x] = True
 
     ncount = count_nearby_mines(mines_list)
 
     print_board(mines_list, ncount)
 
-main()
