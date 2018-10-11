@@ -1,7 +1,17 @@
 ###################################################################
-# gdp.py
+# balloon.py
 ###################################################################
+This code calculates the total volume of a list of balloon radii,
+and prints this value. Then, we pop balloons at certain indices of 
+the list of balloon radii and print the new volume after popping
+them. 
 
+When the main() from this file is run, it should successfully output
+the following:
+
+>>>main()
+8067.609934418589
+825.1916703429188
 
 ###################################################################
 # minesweeper.py
