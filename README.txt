@@ -14,6 +14,30 @@ output the following:
 825.1916703429188
 
 ###################################################################
+# quadratic.py
+###################################################################
+This code prints the roots of a quadratic equation given a specific
+user input of a(variable)^2 + b(variable) + c, where a, b, and c are
+constant coefficients and (variable) is any character. Note, each 
+coefficient MUST be an integer. If left blank, the code does NOT 
+assume the coefficient is 1. 
+
+When the main() is run, a sucessful sample interaction is:
+
+>>> main()
+Equation: 3t^2 + 3t - 5
+t  =  0.8844373104863458
+t  =  -1.8844373104863459
+>>> main()
+Equation: 1x^2 - 5x + 6
+x  =  3.0
+x  =  2.0
+>>> main()
+Equation: 20y^2 + 10y - 30
+y = 1.0
+y = -1.5
+
+###################################################################
 # unhex.py
 ###################################################################
 When main() is run, it will keep prompting the user for a input.
