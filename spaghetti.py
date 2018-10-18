@@ -13,7 +13,7 @@ def lizard(x):
 
 def cat(x):
     dog = x - (2*(x//2) == 0
-    bunny = True
+    bunny = true
     if dog:
         return bunny
     else:
