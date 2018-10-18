@@ -42,7 +42,7 @@ If they uncover a mine, they lose.
 The goal is to uncover every square that doesn't contain a mine.
 
 When the main() from this file is run, it should successfully 
-output just the underlying board for a game of minesweeper.
+output just the underlying board for a game of Minesweeper.
 
 Sample output (mine locations will be randomized):
 1 X 2 X 1 0 0 0 1 1 2 X 1 0 0 0 0 0 0 0 
