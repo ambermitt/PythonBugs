@@ -1,5 +1,6 @@
-These files are numbered the order we think is easiest to hardest, 
-but feel free to skip around!
+These files are numbered in the order we think is easiest to 
+hardest, but feel free to skip around!
+
 ###################################################################
 # 00-balloon.py
 ###################################################################
