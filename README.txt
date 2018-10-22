@@ -1,5 +1,7 @@
+These files are numbered the order we think is easiest to hardest, 
+but feel free to skip around!
 ###################################################################
-# balloon.py
+# 00-balloon.py
 ###################################################################
 This code calculates the total volume of a list of balloon radii,
 and prints this value. Then, we pop balloons at certain indices of 
@@ -14,13 +16,13 @@ output the following:
 825.1916703429188
 
 ###################################################################
-# quadratic.py
+# 01-quadratic.py
 ###################################################################
 This code prints the roots of a quadratic equation given a specific
-user input of a(variable)^2 + b(variable) + c, where a, b, and c are
-constant coefficients and (variable) is any character. Note, each 
-coefficient MUST be an integer. If left blank, the code does NOT 
-assume the coefficient is 1. 
+user input of a(variable)^2 + b(variable) + c, where a, b, and c 
+are constant coefficients and (variable) is any character. Note, 
+each coefficient MUST be an integer. If left blank, the code does 
+NOT assume the coefficient is 1. 
 
 When the main() is run, a sucessful sample interaction is:
 
@@ -38,7 +40,7 @@ y = 1.0
 y = -1.5
 
 ###################################################################
-# unhex.py
+# 03-unhex.py
 ###################################################################
 When main() is run, it will keep prompting the user for a input.
 If the input is a valid positive hexadecimal integer (lowercase), 
@@ -58,7 +60,7 @@ Sample Interaction:
 -1
 
 ###################################################################
-# minesweeper.py
+# 04-minesweeper.py
 ###################################################################
 This code is for making the game board for Minesweeper,
 a game where the player is given a grid of blank squares.
@@ -93,7 +95,7 @@ X 2 2 1 1 0 0 1 1 2 1 2 2 X 1 0 1 3 X 3
 0 1 X 1 0 0 0 1 1 1 1 3 X 2 0 0 0 0 1 1 
 
 ###################################################################
-# spaghetti.py
+# 05-spaghetti.py
 ###################################################################
 Table of sample correct outputs for spaghetti(x):
  x  | spaghetti(x)
