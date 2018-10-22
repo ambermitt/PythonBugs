@@ -41,7 +41,7 @@ y = 1.0
 y = -1.5
 
 ###################################################################
-# 03-unhex.py
+# 02-unhex.py
 ###################################################################
 When main() is run, it will keep prompting the user for a input.
 If the input is a valid positive hexadecimal integer (lowercase), 
@@ -61,7 +61,7 @@ Sample Interaction:
 -1
 
 ###################################################################
-# 04-minesweeper.py
+# 03-minesweeper.py
 ###################################################################
 This code is for making the game board for Minesweeper,
 a game where the player is given a grid of blank squares.
@@ -96,7 +96,7 @@ X 2 2 1 1 0 0 1 1 2 1 2 2 X 1 0 1 3 X 3
 0 1 X 1 0 0 0 1 1 1 1 3 X 2 0 0 0 0 1 1 
 
 ###################################################################
-# 05-spaghetti.py
+# 04-spaghetti.py
 ###################################################################
 Table of sample correct outputs for spaghetti(x):
  x  | spaghetti(x)
