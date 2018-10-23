@@ -109,3 +109,4 @@ Table of sample correct outputs for spaghetti(x):
 20  | 0.3420201439949603
 30  | 0.5000000009252338
 
+Can you figure out what this program does?
